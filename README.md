@@ -28,7 +28,6 @@ python3 -m http.server 8000
 
 ## Before launch
 
-- **Mailing list form**: `script.js` currently shows a success message client-side only. Wire the forms in `index.html` and `contact.html` to your email provider (Mailchimp embedded form, Brevo, Formspree, etc.).
 - **Address & contact**: add the full street address, Eircode, phone and email once confirmed (also update the JSON-LD block in `index.html` for local SEO).
 - **Photos**: swap the stock court photos in `images/` for real photography of the facility when available.
 
