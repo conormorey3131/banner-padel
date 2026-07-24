@@ -1,16 +1,20 @@
-# Banner Padel — Landing Page
+# Banner Padel — Website
 
-Landing page for [Banner Padel](https://www.bannerpadel.ie/), Clare's first indoor padel club in Ennis, Co. Clare.
+Pre-launch website for [Banner Padel](https://www.bannerpadel.ie/), Clare's first indoor padel club in Ennis, Co. Clare.
 
 A fast, dependency-free static site: plain HTML, CSS and vanilla JavaScript. No build step required.
 
 ## Structure
 
 ```
-index.html    # single-page layout (hero, club, facilities, programmes, padel intro, FAQ, signup)
-styles.css    # all styling, responsive + reduced-motion friendly
-script.js     # nav, scroll-reveal animations, signup form handling
-favicon.svg   # padel-ball mark
+index.html                     # Home — opening soon, club highlights, mailing list signup
+about.html                     # What is Padel Tennis?
+contact.html                   # Mailing list signup
+styles.css                     # all styling
+script.js                      # signup form handling + footer year
+favicon.svg                    # padel-ball mark
+images/                        # logo + court photos
+googleca20b32ddd9b190c.html    # Google Search Console verification
 ```
 
 ## Run locally
@@ -24,9 +28,8 @@ python3 -m http.server 8000
 
 ## Before launch
 
-- **Mailing list form**: `script.js` currently shows a success message client-side only. Wire the form in `index.html` to your email provider (Mailchimp embedded form, Brevo, Formspree, etc.).
+- **Mailing list form**: `script.js` currently shows a success message client-side only. Wire the forms in `index.html` and `contact.html` to your email provider (Mailchimp embedded form, Brevo, Formspree, etc.).
 - **Address & contact**: add the full street address, Eircode, phone and email once confirmed (also update the JSON-LD block in `index.html` for local SEO).
-- **Booking link**: point the booking-related CTAs at your court-booking system (e.g. Playtomic/MATCHi) when live.
 - **Photos**: swap the stock court photos in `images/` for real photography of the facility when available.
 
 ## Deploy

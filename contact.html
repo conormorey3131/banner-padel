@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Banner Padel | Ennis, Co. Clare</title>
+  <meta name="description" content="Sign up to the Banner Padel mailing list to unlock exclusive pre-launch offers and be the first to know our official opening date for Clare's First Indoor Padel Facility." />
+  <meta property="og:title" content="Contact — Banner Padel" />
+  <meta property="og:description" content="Be the First to Play! Join the Banner Padel mailing list." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.bannerpadel.ie/contact" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="topnav">
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">What is Padel</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <img class="logo" src="images/banner-padel-logo-wordmark.png" alt="Banner Padel" width="330" height="130" />
+
+    <section class="signup">
+      <h2>Be the First to Play!</h2>
+      <p>Sign up to our mailing list below to unlock exclusive pre-launch offers and be the first to know our Official opening date for Clare First Indoor Padel Facility!</p>
+      <form id="signupForm" novalidate>
+        <label class="visually-hidden" for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required autocomplete="name" />
+        <label class="visually-hidden" for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email" required autocomplete="email" />
+        <button type="submit">Submit</button>
+      </form>
+      <p class="signup__note" id="signupNote"></p>
+    </section>
+
+    <p class="social-note">Follow us on social media for updates, launch announcements and early booking access</p>
+    <div class="social">
+      <a href="https://www.tiktok.com/@bannerpadel" target="_blank" rel="noopener" aria-label="TikTok">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M16.6 3c.4 2 1.7 3.4 3.9 3.6v2.8c-1.5 0-2.8-.5-3.9-1.3v6.1c0 3.4-2.4 5.8-5.6 5.8-3 0-5.5-2.4-5.5-5.4 0-3.2 2.7-5.6 6-5.3v2.9c-1.7-.4-3.1.7-3.1 2.4 0 1.4 1.2 2.5 2.6 2.5 1.6 0 2.7-1.2 2.7-3V3h2.9z"/></svg>
+      </a>
+      <a href="https://www.facebook.com/bannerpadel" target="_blank" rel="noopener" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M13.5 21v-7h2.4l.4-3h-2.8V9.1c0-.9.3-1.5 1.6-1.5h1.3V4.9c-.3 0-1.1-.1-2-.1-2.1 0-3.5 1.3-3.5 3.6V11H8.5v3h2.4v7h2.6z"/></svg>
+      </a>
+      <a href="https://www.instagram.com/bannerpadel" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.2" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <span class="social__handle">@bannerpadel</span>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year">2026</span> Banner Padel · Ennis, Co. Clare, Ireland</p>
+    <p>Powered by <a href="https://moreydigital.ie" target="_blank" rel="noopener">Morey Digital</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
