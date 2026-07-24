@@ -27,7 +27,7 @@ python3 -m http.server 8000
 - **Mailing list form**: `script.js` currently shows a success message client-side only. Wire the form in `index.html` to your email provider (Mailchimp embedded form, Brevo, Formspree, etc.).
 - **Address & contact**: add the full street address, Eircode, phone and email once confirmed (also update the JSON-LD block in `index.html` for local SEO).
 - **Booking link**: point the booking-related CTAs at your court-booking system (e.g. Playtomic/MATCHi) when live.
-- **Photos**: swap the SVG court illustration in the hero for real photography of the facility when available.
+- **Photos**: swap the stock court photos in `images/` for real photography of the facility when available.
 
 ## Deploy
 
