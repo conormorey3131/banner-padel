@@ -1,36 +1,15 @@
-# Banner Padel — Website
+# Banner Padel production website
 
-Pre-launch website for [Banner Padel](https://www.bannerpadel.ie/), Clare's first indoor padel club in Ennis, Co. Clare.
+Live URL: https://bannerpadel.ie/
 
-A fast, dependency-free static site: plain HTML, CSS and vanilla JavaScript. No build step required.
+Built from https://github.com/conormorey3131/banner-padel-site at source commit e8ce823.
+Production launch authorized after Conor confirmed final payment received on 22 September 2026.
 
-## Structure
+To deploy updates, run `npm run build` in the source repository and copy `dist/` here.
+Preserve `CNAME`, `.nojekyll`, and `googleca20b32ddd9b190c.html`.
+GitHub Pages publishes the root of the main branch. Previous revisions are retained in Git history.
 
-```
-index.html                     # Home — opening soon, club highlights, mailing list signup
-about.html                     # What is Padel Tennis?
-contact.html                   # Mailing list signup
-styles.css                     # all styling
-script.js                      # signup form handling + footer year
-favicon.svg                    # padel-ball mark
-images/                        # logo + court photos
-googleca20b32ddd9b190c.html    # Google Search Console verification
-```
+`about.html` and `contact.html` forward old links to their current routes.
+The client preview is maintained separately in the source repository's gh-pages branch.
 
-## Run locally
-
-Open `index.html` directly in a browser, or serve it:
-
-```bash
-python3 -m http.server 8000
-# → http://localhost:8000
-```
-
-## Before launch
-
-- **Address & contact**: add the full street address, Eircode, phone and email once confirmed (also update the JSON-LD block in `index.html` for local SEO).
-- **Photos**: swap the stock court photos in `images/` for real photography of the facility when available.
-
-## Deploy
-
-Any static host works: GitHub Pages, Netlify, Vercel, Cloudflare Pages. For GitHub Pages, enable Pages on the `main` branch root in the repo settings.
+Contact-form delivery through FormSubmit requires activation/receipt confirmation from info@bannerpadel.ie.
